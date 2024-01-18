@@ -16,23 +16,23 @@ let heroiFicha = [nomeHeroi,xpHeroi];
 
 // Estrutura de decisão para determinar o nível com base na quantidade de XP
 if (heroiFicha[1] < 1000) {
-    console.log(heroiFicha[0] + " atingiu o nível: Ferro");
+    console.log(heroiFicha[0] + " está no nível: Ferro");
 } else if (heroiFicha[1] >= 1001 && heroiFicha[1] <= 2000) {
-    console.log(heroiFicha[0] + " atingiu o nível: Bronze");
+    console.log(heroiFicha[0] + " está no nível: Bronze");
 } else if (heroiFicha[1] >= 2001 && heroiFicha[1] <= 5000) {
-    console.log(heroiFicha[0] + " atingiu o nível: Prata");
+    console.log(heroiFicha[0] + " está no nível: Prata");
 } else if (heroiFicha[1] >= 5001 && heroiFicha[1] <= 7000) {
-    console.log(heroiFicha[0] + " atingiu o nível: Ouro");    
+    console.log(heroiFicha[0] + " está no nível: Ouro");    
 } else if (heroiFicha[1] >= 5001 && heroiFicha[1] <= 8000) {
-    console.log(heroiFicha[0] + " atingiu o nível: Platina");
+    console.log(heroiFicha[0] + " está no nível: Platina");
 } else if (heroiFicha[1] >= 8001 && heroiFicha[1] <= 9000) {
-    console.log(heroiFicha[0] + " atingiu o nível: Ascendente");
+    console.log(heroiFicha[0] + " está no nível: Ascendente");
 } else if (heroiFicha[1] >= 9001 && heroiFicha[1] <= 10000) {
-    console.log(heroiFicha[0] + " atingiu o nível: Imortal");
+    console.log(heroiFicha[0] + " está no nível: Imortal");
 } else if (heroiFicha[1] >= 10001) {
-    console.log(heroiFicha[0] + " atingiu o nível: Radiante");
+    console.log(heroiFicha[0] + " está no nível: Radiante");
 } else {
-    console.log(heroiFicha[0] + " atingiu um nível ainda não classificado.");
+    console.log(heroiFicha[0] + " Está no nível ainda não classificado.");
 }
 
 
