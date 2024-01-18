@@ -20,11 +20,17 @@ if (heroiFicha[1] < 1000) {
 } else if (heroiFicha[1] >= 1001 && heroiFicha[1] <= 2000) {
     console.log(heroiFicha[0] + " atingiu o nível: Bronze");
 } else if (heroiFicha[1] >= 2001 && heroiFicha[1] <= 5000) {
-    console.log(heroiFicha[0] + " atingiu o nível: Prata ou Ouro");
+    console.log(heroiFicha[0] + " atingiu o nível: Prata");
+} else if (heroiFicha[1] >= 5001 && heroiFicha[1] <= 7000) {
+    console.log(heroiFicha[0] + " atingiu o nível: Ouro");    
 } else if (heroiFicha[1] >= 5001 && heroiFicha[1] <= 8000) {
-    console.log(heroiFicha[0] + " atingiu o nível: Platina ou Diamante");
+    console.log(heroiFicha[0] + " atingiu o nível: Platina");
 } else if (heroiFicha[1] >= 8001 && heroiFicha[1] <= 9000) {
     console.log(heroiFicha[0] + " atingiu o nível: Ascendente");
+} else if (heroiFicha[1] >= 9001 && heroiFicha[1] <= 10000) {
+    console.log(heroiFicha[0] + " atingiu o nível: Imortal");
+} else if (heroiFicha[1] >= 10001) {
+    console.log(heroiFicha[0] + " atingiu o nível: Radiante");
 } else {
     console.log(heroiFicha[0] + " atingiu um nível ainda não classificado.");
 }
